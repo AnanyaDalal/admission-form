@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Personal Details</title>
+</head>
+
+<body>
+   <h1>Personal details</h1>
+   <!-- name (text box) -->
+   <form action="academic.html">
+      <label for="name">Name:</label>
+      <input type="text" required id="name">
+      <br> <br>
+
+
+      <!-- gender (Drop down) -->
+      <label for="abhijit">Gender:</label>
+      <select required>
+         <option value="">--Select--</option>
+         <option name="gender" value="male">Male</option>
+         <option name="gender" value="female">Female</option>
+         <option name="gender" value="transgender">Transgender</option>
+      </select>
+      <br> <br>
+
+      <!-- pwd (Radio) -->
+      <label for="pwd">PWD:</label>
+      <input type="radio" name="pwd" required id="pwdYes">
+      <label for="pwdYes">Yes</label>
+      <input type="radio" name="pwd" required id="pwdNo">
+      <label for="pwdNo">No</label>
+      <br><br>
+
+      <!-- address -->
+      <label for="add">Address:</label> <br>
+      <textarea rows="4" cols="30" style="resize: none;" required id="add"></textarea>
+      <br><br>
+
+      <!-- DOB -->
+      <label for="dob">D.O.B:</label>
+      <input type="date" required id="dob">
+      <br><br>
+      <label>Category:</label>
+
+      <input type="radio" name="ABC" required id="ur">
+      <label for="ur">UR</label>
+      <input type="radio" name="ABC" required id="obc">
+      <label for="obc">OBC</label>
+      <input type="radio" name="ABC" required id="sc">
+      <label for="sc">SC</label>
+      <input type="radio" name="ABC" required id="st">
+      <label for="st">ST</label>
+
+      <br><br>
+
+      <!-- mob no. -->
+      <label for="mobile">Mobile number:</label>
+      <input type="number" required id="mobile">
+      <br><br>
+
+      <!-- Email. -->
+      <label for="email">Email:</label>
+      <input type="email" required id="email">
+      <br><br>
+      <input type="submit" value="NEXT">
+
+   </form>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
